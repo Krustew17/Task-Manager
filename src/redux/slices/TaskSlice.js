@@ -41,10 +41,6 @@ export const taskSlice = createSlice({
         setFilter: (state, action) => {
             state.filter = action.payload;
         },
-        clearCompletedTasks: (state) => {
-            state.tasks = state.tasks.filter((task) => !task.completed);
-            localStorage.setItem("tasks", JSON.stringify(state.tasks));
-        },
     },
 });
 export const {
