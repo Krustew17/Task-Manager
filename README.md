@@ -1,5 +1,6 @@
 ## Features
 - **Add Tasks**
+- **Toggle Completion**
 - **Delete Tasks**
 - **Filter Tasks**
 
