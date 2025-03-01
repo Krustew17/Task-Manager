@@ -1,12 +1,30 @@
-# React + Vite
+## Features
+- **Add Tasks**
+- **Delete Tasks**
+- **Filter Tasks**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Technologies Used
+- **React, Redux, Tailwind CSS**
 
-Currently, two official plugins are available:
+## Installation
+1. Clone the repository
+```bash
+git clone https://github.com/Krustew17/Task-Manager.git
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Navigate to project directory
+```bash
+cd Task-Manager
+```
 
-## Expanding the ESLint configuration
+3. Install Dependencies
+```bash
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. Run the project
+```bash
+npm run dev
+```
+
+The application should be available at **http://127.0.0.1:5173**
